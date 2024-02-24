@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="763dd670-d793-4997-86f2-794872839ada" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/configuration/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/EndpointConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/ErrorMessageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/GlobalRestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/mapper/EmiRequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/pojo/EmiCalculationInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/service/EmiCalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/utils/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/mapper/EmiRequestMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/service/EmiCalculatorServiceTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;dgp-dev-dgp-aks-ont-01&quot;,
+      &quot;originalNamespace&quot;: &quot;dgp-portalen&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="dgp-dev-dgp-aks-ont-01" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ciOkFhfJWcSkkb7ZsS2TBOX1fA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.EmiCalculatorBeApplicationTests.executor": "Coverage",
+    "JUnit.EmiCalculatorServiceTests.calculateEmi_HigherNumbers_Successful.executor": "Run",
+    "JUnit.EmiCalculatorServiceTests.calculateEmi_Minimal_InterestRate_Successful.executor": "Run",
+    "JUnit.EmiCalculatorServiceTests.calculateEmi_Successful.executor": "Run",
+    "JUnit.EmiCalculatorServiceTests.calculateEmi__NoInterestRate_Successful.executor": "Profiler#1",
+    "JUnit.EmiCalculatorServiceTests.executor": "Coverage",
+    "JUnit.EmiCalculatorServiceTests.referenceTest.executor": "Run",
+    "JUnit.EmiRequestMapperTests.executor": "Run",
+    "JUnit.EmiRequestMapperTests.mapEmiRequest_Successful.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EmiCalculatorBeApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/haraldhiemstra/Programming/emi-calculator-be",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.harald.emicalculatorbe.constants" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EmiCalculatorBeApplication">
+    <configuration name="EmiCalculatorBeApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harald.emicalculatorbe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.EmiCalculatorBeApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmiCalculatorServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harald.emicalculatorbe.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.service" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.service.EmiCalculatorServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmiCalculatorServiceTests.calculateEmi__NoInterestRate_Successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harald.emicalculatorbe.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.service" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.service.EmiCalculatorServiceTests" />
+      <option name="METHOD_NAME" value="calculateEmi__NoInterestRate_Successful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmiRequestMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harald.emicalculatorbe.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.mapper.EmiRequestMapperTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmiRequestMapperTests.mapEmiRequest_Successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harald.emicalculatorbe.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.mapper.EmiRequestMapperTests" />
+      <option name="METHOD_NAME" value="mapEmiRequest_Successful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmiCalculatorBeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harald.emicalculatorbe.EmiCalculatorBeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmiRequestMapperTests" />
+        <item itemvalue="JUnit.EmiCalculatorServiceTests" />
+        <item itemvalue="JUnit.EmiCalculatorBeApplicationTests" />
+        <item itemvalue="JUnit.EmiRequestMapperTests.mapEmiRequest_Successful" />
+        <item itemvalue="JUnit.EmiCalculatorServiceTests.calculateEmi__NoInterestRate_Successful" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24582b8d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="763dd670-d793-4997-86f2-794872839ada" name="Changes" comment="" />
+      <created>1708591073604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708591073604</updated>
+      <workItem from="1708591074795" duration="6082000" />
+      <workItem from="1708687136175" duration="27610000" />
+      <workItem from="1708800383786" duration="147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiRequestDto.java</url>
+          <line>14</line>
+          <properties field="loanAmount" class="com.harald.emicalculatorbe.dto.EmiRequestDto" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/emi_calculator_be$EmiCalculatorServiceTests.ic" NAME="EmiCalculatorServiceTests Coverage Results" MODIFIED="1708780087313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.harald.emicalculatorbe.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/emi_calculator_be$EmiCalculatorBeApplicationTests.ic" NAME="EmiCalculatorBeApplicationTests Coverage Results" MODIFIED="1708779984451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.harald.emicalculatorbe.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/emi_calculator_be$EmiRequestMapperTests.ic" NAME="EmiRequestMapperTests Coverage Results" MODIFIED="1708780130423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.harald.emicalculatorbe.mapper.*</FILTER>
+    </SUITE>
+  </component>
+</project>
