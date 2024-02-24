@@ -16,23 +16,20 @@ import java.util.List;
 public class ApiError {
 
     private final Instant timestamp = Instant.now();
-    private HttpStatusCode status;
+
     private List<String> errors;
 
-
-    public ApiError(HttpStatus status, List<String> errors) {
+    public ApiError( final List<String> errors) {
         super();
-        this.status = status;
         this.errors = errors;
     }
 
-    public ApiError(HttpStatusCode status, String error) {
+    public ApiError( final String error) {
         super();
-        this.status = status;
-        errors = Collections.singletonList(error);
+        this.errors = Collections.singletonList(error);
     }
 
-     public ApiError(@NonNull final Exception ex) {
+    public ApiError(final Exception ex) {
         this.errors.add(ErrorMessageConstants.DEFAULT_ERROR);
     }
 

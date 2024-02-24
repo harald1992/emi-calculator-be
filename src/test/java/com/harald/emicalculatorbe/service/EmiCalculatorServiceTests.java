@@ -1,12 +1,13 @@
 package com.harald.emicalculatorbe.service;
 
-import com.harald.emicalculatorbe.dto.EmiDto;
+import com.harald.emicalculatorbe.dto.EmiResponseDto;
 import com.harald.emicalculatorbe.dto.EmiRequestDto;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import static com.harald.emicalculatorbe.testutils.ObjectMocks.EMI_REQUEST_MOCK;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -24,7 +25,7 @@ public class EmiCalculatorServiceTests {
         final double expectedResult = 83.33;
 
         // when
-        final EmiDto result = emiCalculatorService.calculateEmi(emiRequestDto);
+        final EmiResponseDto result = emiCalculatorService.calculateEmi(emiRequestDto);
 
         // then
         assertNotNull(result);
@@ -39,7 +40,7 @@ public class EmiCalculatorServiceTests {
         final double expectedResult = 83.34;
 
         // when
-        final EmiDto result = emiCalculatorService.calculateEmi(emiRequestDto);
+        final EmiResponseDto result = emiCalculatorService.calculateEmi(emiRequestDto);
 
         // then
         assertNotNull(result);
@@ -50,11 +51,10 @@ public class EmiCalculatorServiceTests {
     @Test
     void calculateEmi_Successful() {
         // given
-        EmiRequestDto emiRequestDto = EmiRequestDto.builder().loanAmount(1000.00).interestRatePercentageYearly(5.00).loanTermYears(10).build();
-        final double expectedResult = 10.61;
+        final double expectedResult = 14.35;
 
         // when
-        final EmiDto result = emiCalculatorService.calculateEmi(emiRequestDto);
+        final EmiResponseDto result = emiCalculatorService.calculateEmi(EMI_REQUEST_MOCK);
 
         // then
         assertNotNull(result);
@@ -68,12 +68,11 @@ public class EmiCalculatorServiceTests {
         final double expectedResult = 87.76;
 
         // when
-        final EmiDto result = emiCalculatorService.calculateEmi(emiRequestDto);
+        final EmiResponseDto result = emiCalculatorService.calculateEmi(emiRequestDto);
 
         // then
         assertNotNull(result);
         assertEquals(expectedResult, result.getEmi());
-
     }
 
 

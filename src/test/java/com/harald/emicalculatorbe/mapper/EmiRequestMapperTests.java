@@ -7,8 +7,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 public class EmiRequestMapperTests {
@@ -24,8 +23,16 @@ public class EmiRequestMapperTests {
         final EmiCalculationInput result = mapper.toEmiCalculationInput(emiRequestDto);
 
         assertNotNull(result);
-        assertEquals(result, expectedResult);
+        assertEquals(expectedResult, result);
+    }
 
+    @Test
+    void mapEmiRequest_EmptyValues() {
+        EmiRequestDto emiRequestDto = EmiRequestDto.builder().loanAmount(1000.00).build();
+
+        final var result = assertThrows(IllegalArgumentException.class, () -> mapper.toEmiCalculationInput(emiRequestDto));
+
+        assertNotNull(result);
     }
 
 }

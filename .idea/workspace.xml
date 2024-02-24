@@ -5,22 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="763dd670-d793-4997-86f2-794872839ada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/configuration/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/EndpointConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/ErrorMessageConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/ApiError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/GlobalRestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/mapper/EmiRequestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/pojo/EmiCalculationInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/service/EmiCalculatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/utils/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/mapper/EmiRequestMapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/service/EmiCalculatorServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestControllerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/error/GlobalRestExceptionHandlerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/testutils/ObjectMocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/util/MathUtilsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/configuration/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/configuration/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/EndpointConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/EndpointConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/ErrorMessageConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/constants/ErrorMessageConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/ApiError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/GlobalRestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/error/GlobalRestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/mapper/EmiRequestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/mapper/EmiRequestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/pojo/EmiCalculationInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/pojo/EmiCalculationInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/service/EmiCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/service/EmiCalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/utils/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/util/MathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/mapper/EmiRequestMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/mapper/EmiRequestMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/service/EmiCalculatorServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/service/EmiCalculatorServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;contexts&quot;: [
@@ -73,6 +84,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.EmiCalculatorBeApplicationTests.executor": "Coverage",
+    "JUnit.EmiCalculatorRestControllerTests.calculateEmiValue_Error.executor": "Run",
+    "JUnit.EmiCalculatorRestControllerTests.calculateEmiValue_Successful.executor": "Run",
+    "JUnit.EmiCalculatorRestControllerTests.calculateEmiValue_Validation_Error.executor": "Run",
+    "JUnit.EmiCalculatorRestControllerTests.executor": "Run",
     "JUnit.EmiCalculatorServiceTests.calculateEmi_HigherNumbers_Successful.executor": "Run",
     "JUnit.EmiCalculatorServiceTests.calculateEmi_Minimal_InterestRate_Successful.executor": "Run",
     "JUnit.EmiCalculatorServiceTests.calculateEmi_Successful.executor": "Run",
@@ -80,15 +95,20 @@
     "JUnit.EmiCalculatorServiceTests.executor": "Coverage",
     "JUnit.EmiCalculatorServiceTests.referenceTest.executor": "Run",
     "JUnit.EmiRequestMapperTests.executor": "Run",
+    "JUnit.EmiRequestMapperTests.mapEmiRequest_EmptyValues.executor": "Run",
     "JUnit.EmiRequestMapperTests.mapEmiRequest_Successful.executor": "Run",
+    "JUnit.GlobalRestExceptionHandlerTests.handleMethodArgumentNotValid.executor": "Run",
+    "JUnit.MathUtilsTests.executor": "Run",
+    "JUnit.MathUtilsTests.roundTwoDecimals_Successfull.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EmiCalculatorBeApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/haraldhiemstra/Programming/emi-calculator-be",
     "node.js.detected.package.eslint": "true",
@@ -105,78 +125,80 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.EmiCalculatorBeApplication">
-    <configuration name="EmiCalculatorBeApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmiCalculatorRestControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="emi-calculator-be" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.harald.emicalculatorbe.*" />
+          <option name="PATTERN" value="com.harald.emicalculatorbe.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe" />
-      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.EmiCalculatorBeApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.controller.EmiCalculatorRestControllerTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmiCalculatorServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmiCalculatorRestControllerTests.calculateEmiValue_Error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="emi-calculator-be" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.harald.emicalculatorbe.service.*" />
+          <option name="PATTERN" value="com.harald.emicalculatorbe.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.service" />
-      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.service.EmiCalculatorServiceTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmiCalculatorServiceTests.calculateEmi__NoInterestRate_Successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="emi-calculator-be" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harald.emicalculatorbe.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.service" />
-      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.service.EmiCalculatorServiceTests" />
-      <option name="METHOD_NAME" value="calculateEmi__NoInterestRate_Successful" />
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.controller.EmiCalculatorRestControllerTests" />
+      <option name="METHOD_NAME" value="calculateEmiValue_Error" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmiRequestMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmiCalculatorRestControllerTests.calculateEmiValue_Successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="emi-calculator-be" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.harald.emicalculatorbe.mapper.*" />
+          <option name="PATTERN" value="com.harald.emicalculatorbe.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.mapper.EmiRequestMapperTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.controller.EmiCalculatorRestControllerTests" />
+      <option name="METHOD_NAME" value="calculateEmiValue_Successful" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmiRequestMapperTests.mapEmiRequest_Successful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmiCalculatorRestControllerTests.calculateEmiValue_Validation_Error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="emi-calculator-be" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.harald.emicalculatorbe.mapper.*" />
+          <option name="PATTERN" value="com.harald.emicalculatorbe.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.mapper.EmiRequestMapperTests" />
-      <option name="METHOD_NAME" value="mapEmiRequest_Successful" />
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.controller.EmiCalculatorRestControllerTests" />
+      <option name="METHOD_NAME" value="calculateEmiValue_Validation_Error" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalRestExceptionHandlerTests.handleMethodArgumentNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="emi-calculator-be" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harald.emicalculatorbe.error.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.harald.emicalculatorbe.error" />
+      <option name="MAIN_CLASS_NAME" value="com.harald.emicalculatorbe.error.GlobalRestExceptionHandlerTests" />
+      <option name="METHOD_NAME" value="handleMethodArgumentNotValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmiRequestMapperTests" />
-        <item itemvalue="JUnit.EmiCalculatorServiceTests" />
-        <item itemvalue="JUnit.EmiCalculatorBeApplicationTests" />
-        <item itemvalue="JUnit.EmiRequestMapperTests.mapEmiRequest_Successful" />
-        <item itemvalue="JUnit.EmiCalculatorServiceTests.calculateEmi__NoInterestRate_Successful" />
+        <item itemvalue="JUnit.GlobalRestExceptionHandlerTests.handleMethodArgumentNotValid" />
+        <item itemvalue="JUnit.EmiCalculatorRestControllerTests.calculateEmiValue_Successful" />
+        <item itemvalue="JUnit.EmiCalculatorRestControllerTests" />
+        <item itemvalue="JUnit.EmiCalculatorRestControllerTests.calculateEmiValue_Validation_Error" />
+        <item itemvalue="JUnit.EmiCalculatorRestControllerTests.calculateEmiValue_Error" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +238,8 @@
       <updated>1708591073604</updated>
       <workItem from="1708591074795" duration="6082000" />
       <workItem from="1708687136175" duration="27610000" />
-      <workItem from="1708800383786" duration="147000" />
+      <workItem from="1708800383786" duration="494000" />
+      <workItem from="1708800894562" duration="10018000" />
     </task>
     <servers />
   </component>
@@ -239,9 +262,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/harald/emicalculatorbe/dto/EmiRequestDto.java</url>
-          <line>14</line>
+          <line>16</line>
           <properties field="loanAmount" class="com.harald.emicalculatorbe.dto.EmiRequestDto" />
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestControllerTests.java</url>
+          <line>69</line>
+          <properties class="com.harald.emicalculatorbe.controller.EmiCalculatorRestControllerTests" method="calculateEmiValue_Successful">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/harald/emicalculatorbe/controller/EmiCalculatorRestControllerTests.java</url>
+          <line>84</line>
+          <properties class="com.harald.emicalculatorbe.controller.EmiCalculatorRestControllerTests" method="calculateEmiValue_Validation_Error">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

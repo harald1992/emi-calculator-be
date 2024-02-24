@@ -1,17 +1,17 @@
 package com.harald.emicalculatorbe.service;
 
-import com.harald.emicalculatorbe.dto.EmiDto;
+import com.harald.emicalculatorbe.dto.EmiResponseDto;
 import com.harald.emicalculatorbe.dto.EmiRequestDto;
 import com.harald.emicalculatorbe.mapper.EmiRequestMapper;
 import com.harald.emicalculatorbe.pojo.EmiCalculationInput;
-import com.harald.emicalculatorbe.utils.MathUtils;
+import com.harald.emicalculatorbe.util.MathUtils;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Service;
 
 @Service
 public class EmiCalculatorService {
 
-    public EmiDto calculateEmi(@NotNull final EmiRequestDto emiRequestDto) {
+    public EmiResponseDto calculateEmi(@NotNull final EmiRequestDto emiRequestDto) {
         EmiCalculationInput input = EmiRequestMapper.getInstance().toEmiCalculationInput(emiRequestDto);
         double rawEmi;
 
@@ -24,7 +24,7 @@ public class EmiCalculatorService {
         }
 
         double roundedEmi = MathUtils.roundTwoDecimals(rawEmi);
-        return EmiDto.builder().emi(roundedEmi).build();
+        return EmiResponseDto.builder().emi(roundedEmi).build();
     }
 
 }

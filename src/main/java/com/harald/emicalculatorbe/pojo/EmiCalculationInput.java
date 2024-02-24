@@ -7,7 +7,7 @@ import lombok.Data;
 @Builder
 public class EmiCalculationInput {
 
-    private double loanAmount;   // p
+    private double loanAmount;
     private int tenureMonths; // period in months, also the number of payments
     private double interestRateMonthlyAbsolute; // in absolute instead of percentage
 

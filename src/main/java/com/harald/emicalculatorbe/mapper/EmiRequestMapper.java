@@ -8,22 +8,20 @@ public class EmiRequestMapper {
 
     private static final EmiRequestMapper INSTANCE = new EmiRequestMapper();
 
-    // Public static method to provide access to the singleton instance
     public static EmiRequestMapper getInstance() {
         return INSTANCE;
     }
 
     public EmiCalculationInput toEmiCalculationInput(@NotNull final EmiRequestDto emiRequestDto) {
-       // TODO: Add error handling for nullpointers
-
+        if (emiRequestDto.getLoanAmount() == null || emiRequestDto.getInterestRatePercentageYearly() == null || emiRequestDto.getLoanTermYears() == null) {
+            throw new IllegalArgumentException("Loan amount, interest rate, and loan term must not be null");
+        }
         EmiCalculationInput result =  EmiCalculationInput.builder().build();
 
         result.setLoanAmount(emiRequestDto.getLoanAmount());
         result.setTenureMonths(emiRequestDto.getLoanTermYears() * 12);
-
-        double interestRateAbsoluteMonthly = emiRequestDto.getInterestRatePercentageYearly() / 12 / 100;
         result.setInterestRateMonthlyAbsolute(
-                interestRateAbsoluteMonthly);
+                emiRequestDto.getInterestRatePercentageYearly() / 12 / 100);
 
         return result;
     }

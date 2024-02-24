@@ -1,13 +1,12 @@
  # Emi Calculator Backend
 This application uses spring and maven.
 Ports are running at 8100.
-Endpoints: http://localhost:8100/api/v1/emi
+Endpoint: http://localhost:8100/api/v1/emi
 
  ## Setup
  - Clone the repo
  - run 'mvn clean install'
 - Run the application via mvn spring-boot:run or right click and run on EmiCalculatorBeApplication main file.
 
-
  ## Unit tests
-To run unit tests and get a coverage report, you can run mvn surefire-report:report
+To run unit tests and get a coverage report via jacoco, you can run mvn test and look in the target->site->surefire-reports.html
